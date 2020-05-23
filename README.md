@@ -38,7 +38,7 @@ cd st
 sudo make install
 ```
 
-Users of Arch-based distros can install from the AUR, [st-jacob-git](https://aur.archlinux.org/packages/st-luke-git/).
+Users of Arch-based distros can install from the AUR, [st-jacob-git](https://aur.archlinux.org/packages/st-jacob-git/).
 
 ## Dependencies
 
