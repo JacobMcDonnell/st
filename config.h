@@ -9,8 +9,7 @@ static char *font = "Mono:pixelsize=14:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
      "symbola:pixelsize=16:antialias=true:autohint=true",
-/*     "Hack Nerd Font Mono:pixelsize=11:antialias=true:autohint=true", */
-};
+/*     "Hack Nerd Font Mono:pixelsize=11:antialias=true:autohint=true", */ };
 static int borderpx = 2;
 
 /*
@@ -245,12 +244,12 @@ static Shortcut shortcuts[] = {
 	{ TERMMOD,              XK_Prior,       zoom,           {.f = +1} },
 	{ TERMMOD,              XK_Next,        zoom,           {.f = -1} },
 	{ TERMMOD,              XK_Home,        zoomreset,      {.f =  0} },
-	{ TERMMOD,              XK_K,           zoom,           {.f = +1} },
+	{ TERMMOD, 		XK_K,           zoom,           {.f = +1} },
 	{ TERMMOD,              XK_J,           zoom,           {.f = -1} },
 	{ TERMMOD,              XK_L,           zoomreset,      {.f =  0} },
 	{ MODKEY,               XK_c,           clipcopy,       {.i =  0} },
 	{ MODKEY,               XK_v,           clippaste,      {.i =  0} },
-	{ TERMMOD,		XK_Y,        selpaste,       {.i =  0} },
+	{ TERMMOD,		XK_Y,           selpaste,       {.i =  0} },
 	{ XK_ANY_MOD,		Button2,        selpaste,       {.i =  0} },
 	{ ShiftMask,            XK_Insert,      selpaste,       {.i =  0} },
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
@@ -262,10 +261,7 @@ static Shortcut shortcuts[] = {
 	{ MODKEY,               XK_l,           externalpipe,   {.v = openurlcmd } },
 	{ MODKEY,               XK_y,           externalpipe,   {.v = copyurlcmd } },
 	{ MODKEY,               XK_o,           externalpipe,   {.v = copyoutput } },
-};
-
-/*
- * Special keys (change & recompile st.info accordingly)
+}; /* * Special keys (change & recompile st.info accordingly)
  *
  * Mask value:
  * * Use XK_ANY_MOD to match the key no matter modifiers state
