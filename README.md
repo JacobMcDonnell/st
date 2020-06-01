@@ -54,7 +54,9 @@ Users of Arch-based distros can install from the AUR, [st-jacob-git](https://aur
 
 - `pywal` for a dynamic color scheme
 
-- [ttf-symbola-free](https://aur.archlinux.org/packages/ttf-symbola-free/) or [libxft-bgra](https://aur.archlinux.org/packages/libxft-bgra/), but libxft-bgra does not install for me
+- [libxft-bgra](https://aur.archlinux.org/packages/libxft-bgra/), but libxft-bgra does not install for me
+
+- `ttf-joypixels`
 
 ## How to configure with Xresources
 
@@ -76,8 +78,8 @@ The `alpha` value is for transparency and goes from 0(transparent) to 1(opaque).
 
 - Compatible with `Xresources` and `pywal` for a dynamic color scheme
 
-- Default font is the default mono font of your system at size 14pt and uses [symola-free](https://aur.archlinux.org/packages/ttf-symbola-free/)  for emojis
+- Default font is the default mono font of your system at size 14pt and uses `ttf-joypixels`  for emojis
 
 ## Emojis
 
-st like many suckless programs will crash at the first sign of an emoji. There are two solutions to this, first install [libxft-bgra](https://aur.archlinux.org/packages/libxft-bgra/) or if this doesn't install like how it doesn't for me then install [symola-free](https://aur.archlinux.org/packages/ttf-symbola-free/).
+st like many suckless programs will crash at the first sign of an emoji. The solutions to this is to install [libxft-bgra](https://aur.archlinux.org/packages/libxft-bgra/)
