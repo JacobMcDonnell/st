@@ -54,7 +54,7 @@ Users of Arch-based distros can install from the AUR, [st-jacob-git](https://aur
 
 - `pywal` for a dynamic color scheme
 
-- [libxft-bgra](https://aur.archlinux.org/packages/libxft-bgra/), but libxft-bgra does not install for me
+- [libxft-bgra](https://aur.archlinux.org/packages/libxft-bgra/)
 
 - `ttf-joypixels`
 
