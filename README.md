@@ -22,8 +22,6 @@
 
 - [vertcenter](https://st.suckless.org/patches/vertcenter/)
 
-- [xresources](https://st.suckless.org/patches/xresources/)
-
 - uses Luke Smith's [st-copyout](https://github.com/LukeSmithxyz/st/blob/master/st-copyout) and [st-urlhandler](https://github.com/LukeSmithxyz/st/blob/master/st-urlhandler) scripts
 
 ## Keybinds
