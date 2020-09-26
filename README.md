@@ -4,23 +4,18 @@
 
 - [gruvbox dark](https://st.suckless.org/patches/gruvbox/)
 
-- [boxdraw](https://st.suckless.org/patches/boxdraw/)
-
 - [externalpipe](https://st.suckless.org/patches/externalpipe/)
-
-- [xclearwin](https://st.suckless.org/patches/xclearwin/)
 
 - [one clipboard](https://st.suckless.org/patches/clipboard/)
 
-- [Alpha Focus Highlight](https://st.suckless.org/patches/alpha_focus_highlight/)
+- [Alpha](https://st.suckless.org/patches/alpha/)
 
-- [font2](https://st.suckless.org/patches/font2/
-)
+- [font2](https://st.suckless.org/patches/font2/)
+
 - [New terminal in current directory](https://st.suckless.org/patches/newterm/)
 
 - [Scrollback](https://st.suckless.org/patches/scrollback/)
 
-- [vertcenter](https://st.suckless.org/patches/vertcenter/)
 
 - uses Luke Smith's [st-copyout](https://github.com/LukeSmithxyz/st/blob/master/st-copyout) and [st-urlhandler](https://github.com/LukeSmithxyz/st/blob/master/st-urlhandler) scripts
 
@@ -50,33 +45,9 @@ Users of Arch-based distros can install from the AUR, [st-jacob-git](https://aur
 
 - `fontconfig` for the default font
 
-- `pywal` for a dynamic color scheme
-
 - [libxft-bgra](https://aur.archlinux.org/packages/libxft-bgra/)
 
 - `ttf-joypixels`
-
-## How to configure with Xresources
-
-Many variables can be configured through `~/.Xdefaults` or `~/Xresources` but you must run `xrdb` on the file before the settings load.
-
-For example fonts, transparency, or colors:
-
-```
-*.font:	IBM Plex Mono:pixelsize=14:antialias=true:autohint=true;
-*.alpha: 0.9
-*.color0: #111
-```
-
-The `alpha` value is for transparency and goes from 0(transparent) to 1(opaque).
-
-### Colors and Fonts
-
-- By default this will use [gruvbox dark](https://github.com/morhetz/gruvbox)
-
-- Compatible with `Xresources` and `pywal` for a dynamic color scheme
-
-- Default font is the default mono font of your system at size 14pt and uses `ttf-joypixels`  for emojis
 
 ## Emojis
 
