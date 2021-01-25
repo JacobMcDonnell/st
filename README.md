@@ -8,7 +8,7 @@
 
 - [one clipboard](https://st.suckless.org/patches/clipboard/)
 
-- [Alpha](https://st.suckless.org/patches/alpha/)
+- [Alpha Focus Highlight](https://st.suckless.org/patches/alpha_focus_highlight/)
 
 - [font2](https://st.suckless.org/patches/font2/)
 
@@ -16,8 +16,8 @@
 
 - [Scrollback](https://st.suckless.org/patches/scrollback/)
 
+- [w3m Images](https://st.suckless.org/patches/w3m/)
 
-- uses Luke Smith's [st-copyout](https://github.com/LukeSmithxyz/st/blob/master/st-copyout) and [st-urlhandler](https://github.com/LukeSmithxyz/st/blob/master/st-urlhandler) scripts
 
 ## Keybinds
 
@@ -41,13 +41,9 @@ Users of Arch-based distros can install from the AUR, [st-jacob-git](https://aur
 
 - Any compositor for the alpha (`xcompmgr`, `compton`, etc.)
 
-- `dmenu` for the url and copying prompts
-
 - `fontconfig` for the default font
 
 - [libxft-bgra](https://aur.archlinux.org/packages/libxft-bgra/)
-
-- `ttf-joypixels`
 
 ## Emojis
 
